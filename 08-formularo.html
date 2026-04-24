@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularo em HTML 5</title>
+</head>
+<body>
+    
+    <h1>formularo em HTML 5</h1>
+    <h2>cadastro de novo usuario</h2>
+    <form action="">
+        <label for="nome">nome completo:</label><br>
+        <input 
+        type="text"
+        name="nome"
+        id="nome"
+        placeholder="digite seu nome"
+        >
+        <br><br>
+        <label for="email">email:</label><br>
+        <input 
+        type="email"
+        name="email" 
+        id="email"
+        placeholder="digite seu email"
+        >
+        <br><br>
+        <label for="senha">senha:</label><br>
+        <input 
+        type="password" 
+        name="senha" 
+        id="senha"
+        placeholder="digite sua senha"
+        >
+        <br><br>
+        <label for="data de nascimento">data de nascimento:</label><br>
+        <input type="date" 
+        name="data de nascimento" 
+        id="data de nascimento"
+        >
+        <br><br>
+        <label for="gênero">escolha seu gênero:</label><br>
+        <input
+        type="radio"
+        name="masculino"
+        id="masculino"
+        value="masculino"
+        >
+        <br><br>
+        <label for="gênero">escolha seu gênero:</label><br>
+        <input
+        type="radio"
+        name="feminino"
+        id="feminino"
+        value="feminino"
+        >
+        <br><br>
+        <label for="setor">Setor</label><br>
+        <select name="setor" id="setor">
+        <option value="vendas">vendas</option>
+        <option value="marketing">marketing</option>
+        <option value="ti">ti</option>
+        </select>
+
+        <br><br>
+        <label for="hobby">hobby(escolha uma ou mais)</label><br>
+        <input type="checkbox" name="hobbby" id="literatura" value="literatura">
+        <label for="literatura">literatura</label>
+        <input type="checkbox" name="hobbby" id="musica" value="musica">
+        <label for="musica">musica</label>
+        <input type="checkbox" name="hobbby" id="esportes" value="esportes">
+        <label for="esportes">esportes</label>
+        
+        <br><br>
+        <button type="submit">cadastrar</button>
+        <button type="reset">limpar</button>
+    </form>
+</body>
+</html>
